@@ -4,6 +4,11 @@
 
 ---
 
+### Requires
+- [**Drawio Integration**](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
+
+---
+
 ## Project Files
 
 The project contains the following key files:
