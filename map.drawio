@@ -1,0 +1,22 @@
+<mxfile host="65bd71144e">
+    <diagram id="JR51kfBBkCoqazEDlZEo" name="Page-1">
+        <mxGraphModel dx="1054" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="DATA" style="shape=card;whiteSpace=wrap;html=1;fillStyle=hatch;strokeColor=#001DBC;fillColor=#0050ef;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="260" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="PRIVATE KEY" style="shape=display;whiteSpace=wrap;html=1;fillStyle=hatch;strokeColor=#FF3333;fillColor=#FF0000;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="210" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="PUBLIC KEY" style="shape=delay;whiteSpace=wrap;html=1;fillStyle=hatch;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="285" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="EVALUATION KEY" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillStyle=hatch;strokeColor=#7F00FF;fillColor=#6600CC;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
