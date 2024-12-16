@@ -69,10 +69,3 @@ DES is an older symmetric encryption algorithm that uses a 56-bit key to encrypt
 - **Security**: More secure than DES, but still not as secure as newer algorithms like AES.
 
 ---
-
-## Summary
-
-- **Symmetric encryption**: Uses a single key for both encryption and decryption.
-- **AES**: A widely used and secure symmetric algorithm with variable key sizes.
-- **DES/3DES**: Older algorithms, with DES being considered insecure today.
-- Symmetric encryption is fast and efficient but requires secure management of the secret key.
