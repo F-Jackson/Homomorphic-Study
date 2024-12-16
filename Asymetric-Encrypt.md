@@ -84,3 +84,39 @@ ECC is an efficient asymmetric encryption method using elliptic curves.
      - Output: `Decrypted Message: HELLO`
 
 ---
+
+## ElGamal Algorithm
+
+ElGamal encryption is based on the Diffie-Hellman key exchange and provides semantic security.
+
+- **Public Key**: Used for encryption.
+- **Private Key**: Used for decryption.
+- **Security**: Relies on the difficulty of the discrete logarithm problem.
+
+### Example Workflow
+
+1. **Generate Key Pair**:
+   - A pair of keys is generated using the ElGamal algorithm.
+   - Example:
+     - **Public Key**: `(p, g, h)` where `p` is a large prime, `g` is a primitive root modulo `p`, and `h = g^x mod p` for a secret private key `x`.
+     - **Private Key**: `x`
+
+2. **Encrypt Data**:
+   - A message "HELLO" is encrypted using the **public key**.
+     - Input Message: `HELLO`
+     - Encryption Process: A random value `k` is chosen, and the message is encrypted as:
+       \[
+       C_1 = g^k \mod p, \quad C_2 = (h^k \cdot M) \mod p
+       \]
+     - Output: `Encrypted Message: (C1, C2)`
+
+3. **Transmit**:
+   - The encrypted message `(C1, C2)` is transmitted.
+
+4. **Decrypt**:
+   - The recipient uses their **private key** to decrypt the message.
+     - Decryption Process: The message is decrypted using the formula:
+       \[
+       M = (C_2 \cdot C_1^{-x}) \mod p
+       \]
+     - Output: `Decrypted Message: HELLO`
