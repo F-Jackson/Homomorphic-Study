@@ -48,9 +48,7 @@ AES (Advanced Encryption Standard) is one of the most commonly used symmetric en
 
 ---
 
-## Other Symmetric Algorithms
-
-### DES (Data Encryption Standard)
+## DES (Data Encryption Standard)
 
 DES is an older symmetric encryption algorithm that uses a 56-bit key to encrypt 64-bit blocks of data.
 
@@ -59,7 +57,7 @@ DES is an older symmetric encryption algorithm that uses a 56-bit key to encrypt
 - **Rounds**: 16 rounds
 - **Security**: DES is now considered insecure due to advances in computing power.
 
-### 3DES (Triple DES)
+## 3DES (Triple DES)
 
 3DES is an enhancement of DES that applies the DES algorithm three times using either two or three different keys, improving security.
 
