@@ -5,7 +5,7 @@
 Asymmetric encryption uses a **public** and a **private** key for secure communication. 
 
 1. **Key Pair Generation**:
-   - Keys are generated using algorithms like **RSA**, **ECC**, or **SHA-256**.
+   - Keys are generated using algorithms like **RSA**, **ECC**.
    - The **public key** is shared openly, while the **private key** remains secret.
 
 2. **Encryption**:
@@ -60,11 +60,6 @@ ECC is an efficient asymmetric encryption method using elliptic curves.
 - **Key Features**: 
   - Smaller keys (e.g., 256-bit ECC ≈ 3072-bit RSA).
   - High performance and low resource usage.
-- **Applications**: IoT, mobile communications, SSL/TLS.
-- **Variants**:
-  - **ECDSA**: For digital signatures.
-  - **ECDH**: For key exchange.
-  - **EdDSA**: A faster, modern signature scheme.
 
 ### Example Workflow
 
@@ -89,9 +84,3 @@ ECC is an efficient asymmetric encryption method using elliptic curves.
      - Output: `Decrypted Message: HELLO`
 
 ---
-
-## Summary
-
-- **RSA**: Generates a pair of keys for encryption and decryption.
-- **ECC**: Uses elliptic curves for encryption, generating a smaller but equally secure key pair.
-- Both algorithms ensure secure communication by allowing encryption with the public key and decryption with the private key.
