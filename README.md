@@ -8,7 +8,7 @@
 
 The project contains the following key files:
 
-- [**asymmetric_encryption.md**](./asymmetric_encryption.md): Detailed explanation of asymmetric encryption methods, including RSA, ECC, and ElGamal, with practical examples.
-- [**symmetric_encryption.md**](./symmetric_encryption.md): Overview of symmetric encryption algorithms like AES, DES, and 3DES, including explanations and use cases.
+- [**Asymetric-Encrypt.md**](./Asymetric-Encrypt.md): Detailed explanation of asymmetric encryption methods, including RSA, ECC with practical examples.
+- [**Symetric-Encrypt.md**](./Symetric-Encrypt.md): Overview of symmetric encryption algorithms like AES, DES, and 3DES, including explanations and use cases.
 
 ---
